@@ -1,2 +1,2 @@
 # Documentation
-This is the documentation for Teamstudio Ediction 33.
+This is the documentation for Teamstudio Edition 33.
