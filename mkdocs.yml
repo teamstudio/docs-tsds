@@ -3,7 +3,16 @@ site_name: Teamstudio Edition 33
 nav:
   - 'index.md'
   - 'Installation Guide':
-    - 'before.md'
+    - 'install/before.md'
+    - 'install/server.md'
+    - 'Installing Client-Based Modules':
+      - 'install/client.md'
+      - 'install/ciao.md'
+      - 'install/icons.md'
+    - 'install/trouble.md'
+    - 'install/initializing.md'
+    - 'install/running.md'
+    - 'install/removing.md'
   - 'User Guide':
     - 'legal.md'
     - 'Teamstudio Analyzer':
