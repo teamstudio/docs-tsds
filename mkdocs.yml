@@ -64,6 +64,12 @@ nav:
         - 'analyzer/scriptctxfilter.md'
         - 'analyzer/scripterrors.md'
         - 'analyzer/scriptsample.md'
+    - 'Teamstudio Undo':
+      - 'undo/index.md'
+      - 'undo/configuring.md'
+      - 'Using Undo':
+        - 'undo/viewing.md'
+        - 'undo/undoing.md'
   - 'release.md'
 
 theme:
