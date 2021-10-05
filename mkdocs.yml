@@ -17,6 +17,53 @@ nav:
     - 'legal.md'
     - 'Teamstudio Analyzer':
       - 'analyzer/index.md'
+      - 'Using Analyzer':
+        - 'analyzer/starting.md'
+        - 'analyzer/incremental.md'
+        - 'Auditing A Design':
+          - 'analyzer/auditing.md'
+          - 'analyzer/auditoutput.md'
+        - 'analyzer/designtab.md'
+        - 'analyzer/startinganalysis.md'
+      - 'The Analysis Output Database':
+        - 'analyzer/output.md'
+        - 'analyzer/comments.md'
+        - 'analyzer/deleted.md'
+        - 'analyzer/viewing.md'
+        - 'analyzer/views.md'
+        - 'analyzer/customizing.md'
+        - 'analyzer/references.md'
+      - 'The Audit Function':
+        - 'analyzer/audit.md'
+        - 'analyzer/auditcomponents.md'
+        - 'analyzer/auditusingoutput.md'
+      - 'Analyzer''s Filters':
+        - 'analyzer/filters.md'
+        - 'analyzer/filtersreviewing.md'
+        - 'analyzer/filtersdisabling.md'
+        - 'analyzer/filtersclasses.md'
+        - 'analyzer/filtersseverity.md'
+        - 'analyzer/filtersediting.md'
+        - 'analyzer/filtersexamples.md'
+      - 'Filters for Advanced Users':
+        - 'analyzer/filtersadvanced.md'
+        - 'analyzer/filtersrtcontains.md'
+        - 'analyzer/filtersgetparentvalue.md'
+        - 'analyzer/filtersgetchildvalues.md'
+        - 'analyzer/filtersincludechildren.md'
+        - 'analyzer/filterssearchall.md'
+        - 'analyzer/filtersincludeparent.md'
+        - 'analyzer/filtersaliasduplicate.md'
+      - 'Calling Analyzer from LotusScript':
+        - 'analyzer/script.md'
+        - 'analyzer/scriptanalyze.md'
+        - 'analyzer/scriptanalyze2.md'
+        - 'analyzer/scriptanalyzeandaudit.md'
+        - 'analyzer/scriptstringload.md'
+        - 'analyzer/scriptflags.md'
+        - 'analyzer/scriptctxfilter.md'
+        - 'analyzer/scripterrors.md'
+        - 'analyzer/scriptsample.md'
   - 'release.md'
 
 theme:
