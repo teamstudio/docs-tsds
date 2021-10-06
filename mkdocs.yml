@@ -64,6 +64,18 @@ nav:
         - 'analyzer/scriptctxfilter.md'
         - 'analyzer/scripterrors.md'
         - 'analyzer/scriptsample.md'
+    - 'Teamstudio Profiler':
+      - 'profiler/index.md'
+      - 'Profiler Client':
+        - 'profiler/client.md'
+        - 'profiler/running.md'
+        - 'profiler/results.md'
+        - 'profiler/calltree.md'
+      - 'Profiler Server':
+        - 'profiler/server.md'
+        - 'profiler/configuration.md'
+        - 'profiler/log.md'
+      - 'profiler/troubleshooting.md'
     - 'Teamstudio Undo':
       - 'undo/index.md'
       - 'undo/configuring.md'
