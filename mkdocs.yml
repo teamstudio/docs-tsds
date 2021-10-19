@@ -82,6 +82,26 @@ nav:
       - 'Using Undo':
         - 'undo/viewing.md'
         - 'undo/undoing.md'
+    - 'Teamstudio Validator':
+      - 'validator/index.md'
+      - 'validator/starting.md'
+      - 'validator/running.md'
+      - 'validator/views.md'
+      - 'validator/viewerror.md'
+      - 'Common Errors':
+        - 'validator/form.md'
+        - 'validator/nodatabase.md'
+        - 'validator/nodocument.md'
+        - 'validator/inconsistent.md'
+        - 'validator/keyword.md'
+        - 'validator/nodependency.md'
+        - 'validator/agentdata.md'
+        - 'validator/conflict.md'
+        - 'validator/invalidurl.md'
+      - 'Calling Validator from LotusScript':
+        - 'validator/script.md'
+        - 'validator/scriptgeneratereport.md'
+        - 'validator/scriptstringload.md'
   - 'release.md'
 
 theme:
