@@ -64,6 +64,29 @@ nav:
         - 'analyzer/scriptctxfilter.md'
         - 'analyzer/scripterrors.md'
         - 'analyzer/scriptsample.md'
+    - 'Teamstudio Configurator':
+      - 'configurator/index.md'
+      - 'Using Configurator':
+        - 'configurator/starting.md'
+        - 'configurator/where.md'
+        - 'configurator/results.md'
+        - 'configurator/selecting.md'
+        - 'Selecting Match Options for Searches':
+          - 'configurator/wholewords.md'
+          - 'configurator/accent.md'
+          - 'configurator/case.md'
+          - 'configurator/wildcards.md'
+          - 'configurator/regex.md'
+        - 'configurator/action.md'
+        - 'configurator/match.md'
+      - 'configurator/output.md'
+      - 'configurator/databases.md'
+      - 'Calling Configurator from LotusScript':
+        - 'configurator/script.md'
+        - 'configurator/scriptcompile.md'
+        - 'configurator/scriptfar.md'
+        - 'configurator/scriptstringload.md'
+        - 'configurator/scripterrors.md'
     - 'Teamstudio Profiler':
       - 'profiler/index.md'
       - 'Profiler Client':
