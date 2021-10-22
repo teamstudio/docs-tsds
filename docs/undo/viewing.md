@@ -22,4 +22,4 @@
     3. Select the second version (the two elements must be of the same type.)
     4. Click the **Delta** button.
     
-See [Using Delta](delta/using.md) for more information on using Delta.
+See [Using Delta](../delta/using.md) for more information on using Delta.

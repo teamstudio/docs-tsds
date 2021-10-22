@@ -87,6 +87,39 @@ nav:
         - 'configurator/scriptfar.md'
         - 'configurator/scriptstringload.md'
         - 'configurator/scripterrors.md'
+    - 'Teamstudio Delta':
+      - 'delta/index.md'
+      - 'delta/how.md'
+      - 'delta/using.md'
+      - 'Comparing Elements or Documents':
+        - 'delta/comparing.md'
+        - 'delta/symbols.md'
+        - 'delta/options.md'
+        - 'delta/element.md'
+        - 'Viewing Differences':
+          - 'delta/differences.md'
+          - 'delta/colors.md'
+          - 'delta/locating.md'
+          - 'delta/hidingidentical.md'
+          - 'delta/tabbedtables.md'
+        - 'delta/data.md'
+        - 'delta/matching.md'
+        - 'delta/nomatch.md'
+        - 'delta/preferences.md'
+        - 'delta/smartfilter.md'
+      - 'delta/merging.md'
+      - 'Creating Difference Reports':
+        - 'delta/reports.md'
+        - 'delta/reportoptions.md'
+        - 'delta/reportsymbols.md'
+        - 'delta/reportcolors.md'
+        - 'delta/reportfilter.md'
+        - 'delta/reportdata.md'
+        - 'delta/reportviewing.md'
+      - 'Calling Delta from LotusScript':
+        - 'delta/script.md'
+        - 'delta/scriptreport.md'
+        - 'delta/scriptstringload.md'
     - 'Teamstudio Profiler':
       - 'profiler/index.md'
       - 'Profiler Client':
