@@ -14,7 +14,7 @@
     
     
       
-        <title>Reviewing Profiler Results - Teamstudio Edition 33</title>
+        <title>Profiler 結果の参照 - Teamstudio Edition 33</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#reviewing-profiler-results" class="md-skip">
+        <a href="#profiler" class="md-skip">
           コンテンツにスキップ
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Reviewing Profiler Results
+              Profiler 結果の参照
             
           </span>
         </div>
@@ -1955,7 +1955,7 @@
   
     <li class="md-nav__item">
       <a href="../" class="md-nav__link">
-        Profiler Overview
+        紹介
       </a>
     </li>
   
@@ -1990,7 +1990,7 @@
   
     <li class="md-nav__item">
       <a href="../client/" class="md-nav__link">
-        Using Profiler Client
+        Profiler Client の使用
       </a>
     </li>
   
@@ -2002,7 +2002,7 @@
   
     <li class="md-nav__item">
       <a href="../running/" class="md-nav__link">
-        Running Profiler
+        アプリケーション上での Profiler の実行
       </a>
     </li>
   
@@ -2023,12 +2023,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Reviewing Profiler Results
+          Profiler 結果の参照
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Reviewing Profiler Results
+        Profiler 結果の参照
       </a>
       
         
@@ -2046,8 +2046,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#to-work-with-profiler-results" class="md-nav__link">
-    To work with Profiler Results
+  <a href="#profiler_1" class="md-nav__link">
+    Profiler 結果を使用するには
   </a>
   
 </li>
@@ -2066,7 +2066,7 @@
   
     <li class="md-nav__item">
       <a href="../calltree/" class="md-nav__link">
-        Using the Call Tree
+        コールツリーの使用
       </a>
     </li>
   
@@ -2105,7 +2105,7 @@
   
     <li class="md-nav__item">
       <a href="../server/" class="md-nav__link">
-        Using Profiler Server
+        Profiler Server の使用
       </a>
     </li>
   
@@ -2117,7 +2117,7 @@
   
     <li class="md-nav__item">
       <a href="../configuration/" class="md-nav__link">
-        Profiler Configuration Database
+        Profiler 設定データベース
       </a>
     </li>
   
@@ -2129,7 +2129,7 @@
   
     <li class="md-nav__item">
       <a href="../log/" class="md-nav__link">
-        Profiler Log Database
+        Profiler ログデータベース
       </a>
     </li>
   
@@ -2147,7 +2147,7 @@
   
     <li class="md-nav__item">
       <a href="../troubleshooting/" class="md-nav__link">
-        Troubleshooting Profiler
+        トラブルシューティング
       </a>
     </li>
   
@@ -2593,8 +2593,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#to-work-with-profiler-results" class="md-nav__link">
-    To work with Profiler Results
+  <a href="#profiler_1" class="md-nav__link">
+    Profiler 結果を使用するには
   </a>
   
 </li>
@@ -2612,87 +2612,87 @@
               
                 
                 
-                <h1 id="reviewing-profiler-results">Reviewing Profiler Results</h1>
-<p>The <strong>Total Time</strong> field reports the number of seconds that your application ran. Seconds are the default units of time.</p>
+                <h1 id="profiler">Profiler 結果の参照</h1>
+<p><strong>[ 合計時間 ]</strong> フィールドには、アプリケーションが稼働した合計時間が表示 されます。デフォルトでは時間単位は秒に設定されています。</p>
 <ul>
-<li>Click View &gt; Units to change from seconds to milliseconds, or milliseconds to seconds.</li>
-<li>Click a column heading to sort by that column.</li>
+<li>秒からミリ秒、またはミリ秒から秒に切り替えるには、<strong>[ 表示 ] &gt; [ 単位 ]</strong> をク リックします。</li>
+<li>列で並べ替えるには、その列のタイトルをクリックします。</li>
 </ul>
-<p>The pane at the top shows the list of functions that were running during Profiler's collection interval and information about those functions.</p>
+<p>ペイン(画面上部)に、Profiler の収集処理中に稼働していた関数のリスト が表示されます。</p>
 <table>
 <thead>
 <tr>
-<th>Column</th>
-<th>Description</th>
+<th>列</th>
+<th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Fn</td>
-<td>The function name.</td>
+<td>関数</td>
+<td>関数名</td>
 </tr>
 <tr>
-<td>Calls</td>
-<td>The number of times the function was called.</td>
+<td>コール数</td>
+<td>関数が呼び出された回数</td>
 </tr>
 <tr>
-<td>Time + Children</td>
-<td>The combined time including the time the function took plus the time its child functions took to execute.</td>
+<td>時間 + 子関数時間</td>
+<td>関数とその子関数の実行にかかった時間の合計</td>
 </tr>
 <tr>
-<td>Time</td>
-<td>The time the function took.</td>
+<td>時間</td>
+<td>関数の実行にかかった時間</td>
 </tr>
 <tr>
-<td>% Parent</td>
-<td>The percentage of total time that the function took to run in relation to the calling function.</td>
+<td>親関数に対する比率</td>
+<td>呼び出し元の関数に対する、関数の実行にかかった合計時間の比率</td>
 </tr>
 <tr>
-<td>Average</td>
-<td>The average time the function took to run once.</td>
+<td>平均時間</td>
+<td>関数を 1 回実行するのにかかった時間の平均</td>
 </tr>
 <tr>
-<td>Average + Children</td>
-<td>The average time taken by the function and its children for each call ((time + children)/calls).</td>
+<td>時間 + 子関数時間の平均値</td>
+<td>関数とその子関数が各コールを実行するのにかかった時間の平均(時間 + 子関数時間)/コール数)</td>
 </tr>
 <tr>
-<td>Element</td>
-<td>The name of the design element in which the code is located.</td>
+<td>要素</td>
+<td>コードを含む設計要素の名前</td>
 </tr>
 <tr>
-<td>Item</td>
-<td>The name of the NoteItem in which the code is located.</td>
+<td>項目</td>
+<td>コードを含むノーツ項目の名前</td>
 </tr>
 </tbody>
 </table>
-<p>Profiler uses the following naming convention to represent classes and methods:
-<div class="highlight"><pre><span></span><code>&lt;class name&gt;::&lt;method name&gt;
+<p>Profiler では、以下の命名規則を使ってクラスおよびメソッドを表します。
+<div class="highlight"><pre><span></span><code>&lt; クラス名 &gt;::&lt; メソッド名 &gt;
 </code></pre></div></p>
-<h2 id="to-work-with-profiler-results">To work with Profiler Results</h2>
+<h2 id="profiler_1">Profiler 結果を使用するには</h2>
 <ol>
 <li>
-<p>In the upper pane, select a function you want to investigate further.<br />
-   You see more detailed information in the lower pane, with the Children tab selected by default. The function selected in the Summary pane called the functions listed in the Children tab.<br />
-<img alt="Profiler Results" src="../../../profiler/img/results.png" /><br />
+<p>画面上のペインで、さらに調査する関数を選択します。<br />
+   画面下のペインに、より詳しい情報が表示されます。デフォルトでは [ 子関数 ] タブが選択されています。サマリペインから選択された関数がコールした関数のリストが、[ 子関数 ] タブに表示されます。<br />
+<img alt="Profiler Results" src="../img/results.png" /><br />
 <br />
-<div>In the example, the `FINDPERSON` function called the three child functions listed:
+<div>この例の場合、FINDPERSON 関数は以下の 3 つの子関数をコールしました。
     <ul><li>FINDPERSONSLOWLY1</li>
     <li>FINDPERSONSLOWLY2</li>
     <li>FINDPERSONQUICKLY</li></ul>
-   The first two child functions took most of the FINDPERSON function's time, which may warrant further investigation.
+   最初の 2 つの子関数が FINDPERSON 関数の時間の大部分を占めているため、より詳しい調査が必要になります。
    <div class="admonition">
      <p class="admonition-title">Note</p>
-     <ul><li>Child functions do not include LotusScript language functions such as Print or Message Box. They also do not include Product Classes such as NotesDocument or NotesDatabase.</li>
-     <li>Time in the Detail pane is relative to the Parent function's time.</li></ul>
+     <ul><li>Print や Message Box のようなロータススクリプト言語関数は、子関数に含まれません。NotesDocument や NotesDatabase のような Product クラスも含まれません。</li>
+     <li>詳細ペインに表示される時間は、親関数の時間に対する相対値です。</li></ul>
    </div></div></p>
 </li>
 <li>
-<p>Double-click a function on the Children tab to view information about its child functions.</p>
+<p><strong>[ 子関数 ]</strong> タブで関数をダブルクリックすると、その子関数の情報が表示されます。</p>
 </li>
-<li>Use the arrow buttons at the top of the Children tab to go between levels of child functions.</li>
-<li>Click the Source tab to view LotusScript source.<br />
-<img alt="Profiler Source" src="../../../profiler/img/results2.png" /><br />
-   The example shows that line number 2 took the most time.</li>
+<li><strong>[子関数]</strong> タブの上部にある矢印ボタンを使って、子関数のレベルを変更します。</li>
+<li><strong>[ ソース ]</strong> タブをクリックすると、ロータススクリプトソースが表示されます。<br />
+<img alt="Profiler Source" src="../img/results2.png" /><br />
+   この例では、行番号 2 の処理に最も時間がかかったことがわかります。</li>
 </ol>
                 
               
@@ -2713,7 +2713,7 @@
     <nav class="md-footer__inner md-grid" aria-label="フッター">
       
         
-        <a href="../running/" class="md-footer__link md-footer__link--prev" aria-label="前: Running Profiler" rel="prev">
+        <a href="../running/" class="md-footer__link md-footer__link--prev" aria-label="前: アプリケーション上での Profiler の実行" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -2722,20 +2722,20 @@
               <span class="md-footer__direction">
                 前
               </span>
-              Running Profiler
+              アプリケーション上での Profiler の実行
             </div>
           </div>
         </a>
       
       
         
-        <a href="../calltree/" class="md-footer__link md-footer__link--next" aria-label="次: Using the Call Tree" rel="next">
+        <a href="../calltree/" class="md-footer__link md-footer__link--next" aria-label="次: コールツリーの使用" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 次
               </span>
-              Using the Call Tree
+              コールツリーの使用
             </div>
           </div>
           <div class="md-footer__button md-icon">

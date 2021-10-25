@@ -14,7 +14,7 @@
     
     
       
-        <title>Using the Call Tree - Teamstudio Edition 33</title>
+        <title>コールツリーの使用 - Teamstudio Edition 33</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#using-the-call-tree" class="md-skip">
+        <a href="#_1" class="md-skip">
           コンテンツにスキップ
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Using the Call Tree
+              コールツリーの使用
             
           </span>
         </div>
@@ -1955,7 +1955,7 @@
   
     <li class="md-nav__item">
       <a href="../" class="md-nav__link">
-        Profiler Overview
+        紹介
       </a>
     </li>
   
@@ -1990,7 +1990,7 @@
   
     <li class="md-nav__item">
       <a href="../client/" class="md-nav__link">
-        Using Profiler Client
+        Profiler Client の使用
       </a>
     </li>
   
@@ -2002,7 +2002,7 @@
   
     <li class="md-nav__item">
       <a href="../running/" class="md-nav__link">
-        Running Profiler
+        アプリケーション上での Profiler の実行
       </a>
     </li>
   
@@ -2014,7 +2014,7 @@
   
     <li class="md-nav__item">
       <a href="../results/" class="md-nav__link">
-        Reviewing Profiler Results
+        Profiler 結果の参照
       </a>
     </li>
   
@@ -2035,12 +2035,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Using the Call Tree
+          コールツリーの使用
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Using the Call Tree
+        コールツリーの使用
       </a>
       
         
@@ -2058,8 +2058,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#to-use-the-call-tree" class="md-nav__link">
-    To use the Call Tree
+  <a href="#_2" class="md-nav__link">
+    コールツリーを使うには
   </a>
   
 </li>
@@ -2105,7 +2105,7 @@
   
     <li class="md-nav__item">
       <a href="../server/" class="md-nav__link">
-        Using Profiler Server
+        Profiler Server の使用
       </a>
     </li>
   
@@ -2117,7 +2117,7 @@
   
     <li class="md-nav__item">
       <a href="../configuration/" class="md-nav__link">
-        Profiler Configuration Database
+        Profiler 設定データベース
       </a>
     </li>
   
@@ -2129,7 +2129,7 @@
   
     <li class="md-nav__item">
       <a href="../log/" class="md-nav__link">
-        Profiler Log Database
+        Profiler ログデータベース
       </a>
     </li>
   
@@ -2147,7 +2147,7 @@
   
     <li class="md-nav__item">
       <a href="../troubleshooting/" class="md-nav__link">
-        Troubleshooting Profiler
+        トラブルシューティング
       </a>
     </li>
   
@@ -2593,8 +2593,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#to-use-the-call-tree" class="md-nav__link">
-    To use the Call Tree
+  <a href="#_2" class="md-nav__link">
+    コールツリーを使うには
   </a>
   
 </li>
@@ -2612,18 +2612,18 @@
               
                 
                 
-                <h1 id="using-the-call-tree">Using the Call Tree</h1>
-<p>You can also use the Call Tree to investigate your results. The Call Tree gives you a different way to look at the functions called while Profiler ran.</p>
-<h2 id="to-use-the-call-tree">To use the Call Tree</h2>
+                <h1 id="_1">コールツリーの使用</h1>
+<p>コールツリーを使って結果を調査することもできます。コールツリーには、Profiler の実行中にコールされた関数がさまざまな方法で表示されます。</p>
+<h2 id="_2">コールツリーを使うには</h2>
 <ol>
-<li>Click <strong>View &gt; Call Tree</strong>. You see the <strong>Calls</strong> window.</li>
-<li>Select a function and click the <strong>Show Function</strong> button to automatically highlight that function in the main results pane.<br />
-<img alt="Call Tree" src="../../../profiler/img/calltree.png" /></li>
-<li>Select the <strong>Combine Children</strong> check box so that similar calls appear in the <strong>Calls</strong> window as a single entry.<br />
-   This feature simplifies the tree. For example, if you have a loop that calls a particular function hundreds of times, the call tree will only show that function once. If you uncheck the box, all function calls will appear in the tree even if they are duplicates.</li>
-<li>When you are finished with your investigation, click <strong>Close</strong>.<br />
-   Profiler will ask if you want to save the file. After you specify where to save it, it is saved as a Profiler snapshot (.tps file).<br />
-   You can also click <strong>File &gt; Save As</strong> to save your report.</li>
+<li><strong>[ 表示 ] &gt; [ コールツリー ]</strong> をクリックします。<strong>[ コール ]</strong> ウィンドウが表示されます。</li>
+<li>関数を選択し、<strong>[関数を表示]</strong>ボタンをクリックすると、メイン結果ペイン内か ら自動的にその関数が強調表示されます。<br />
+<img alt="Call Tree" src="../img/calltree.png" /></li>
+<li><strong>[ 子関数を結合する ]</strong> チェックボックスをオンにすると、似ているコールが 1 つ のエントリとして <strong>[ コール ]</strong> ウィンドウに表示されます。<br />
+   この機能を使うと、ツリーをシンプルにすることができます。たとえば、ある関数を数百回もコールするループがあったとしても、その関数はコールツリー に一度しか表示されません。チェックボックスをオフにすると、複製を含むすべての関数がツリーに表示されます</li>
+<li>調査が完了したら、<strong>[閉じる]</strong>をクリックします。<br />
+   ファイルを保存するかどうかを確認するメッセージが表示されます。保存場所を指定すると、Profiler スナップショット(.tps ファイル)として保存されます。<br />
+<strong>[ ファイル ] &gt; [ 名前を付けて保存 ]</strong> をクリックしてレポートを保存することも できます。</li>
 </ol>
                 
               
@@ -2644,7 +2644,7 @@
     <nav class="md-footer__inner md-grid" aria-label="フッター">
       
         
-        <a href="../results/" class="md-footer__link md-footer__link--prev" aria-label="前: Reviewing Profiler Results" rel="prev">
+        <a href="../results/" class="md-footer__link md-footer__link--prev" aria-label="前: Profiler 結果の参照" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -2653,20 +2653,20 @@
               <span class="md-footer__direction">
                 前
               </span>
-              Reviewing Profiler Results
+              Profiler 結果の参照
             </div>
           </div>
         </a>
       
       
         
-        <a href="../server/" class="md-footer__link md-footer__link--next" aria-label="次: Using Profiler Server" rel="next">
+        <a href="../server/" class="md-footer__link md-footer__link--next" aria-label="次: Profiler Server の使用" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 次
               </span>
-              Using Profiler Server
+              Profiler Server の使用
             </div>
           </div>
           <div class="md-footer__button md-icon">

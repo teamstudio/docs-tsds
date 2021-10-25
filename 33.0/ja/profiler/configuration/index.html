@@ -14,7 +14,7 @@
     
     
       
-        <title>Profiler Configuration Database - Teamstudio Edition 33</title>
+        <title>Profiler 設定データベース - Teamstudio Edition 33</title>
       
     
     
@@ -61,7 +61,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#profiler-configuration-database" class="md-skip">
+        <a href="#profiler" class="md-skip">
           コンテンツにスキップ
         </a>
       
@@ -91,7 +91,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Profiler Configuration Database
+              Profiler 設定データベース
             
           </span>
         </div>
@@ -1955,7 +1955,7 @@
   
     <li class="md-nav__item">
       <a href="../" class="md-nav__link">
-        Profiler Overview
+        紹介
       </a>
     </li>
   
@@ -1988,7 +1988,7 @@
   
     <li class="md-nav__item">
       <a href="../client/" class="md-nav__link">
-        Using Profiler Client
+        Profiler Client の使用
       </a>
     </li>
   
@@ -2000,7 +2000,7 @@
   
     <li class="md-nav__item">
       <a href="../running/" class="md-nav__link">
-        Running Profiler
+        アプリケーション上での Profiler の実行
       </a>
     </li>
   
@@ -2012,7 +2012,7 @@
   
     <li class="md-nav__item">
       <a href="../results/" class="md-nav__link">
-        Reviewing Profiler Results
+        Profiler 結果の参照
       </a>
     </li>
   
@@ -2024,7 +2024,7 @@
   
     <li class="md-nav__item">
       <a href="../calltree/" class="md-nav__link">
-        Using the Call Tree
+        コールツリーの使用
       </a>
     </li>
   
@@ -2065,7 +2065,7 @@
   
     <li class="md-nav__item">
       <a href="../server/" class="md-nav__link">
-        Using Profiler Server
+        Profiler Server の使用
       </a>
     </li>
   
@@ -2086,12 +2086,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Profiler Configuration Database
+          Profiler 設定データベース
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        Profiler Configuration Database
+        Profiler 設定データベース
       </a>
       
         
@@ -2109,22 +2109,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#to-create-a-profiler-configuration-database" class="md-nav__link">
-    To create a Profiler configuration database
+  <a href="#profiler_1" class="md-nav__link">
+    Profiler 設定データベースを作成するには
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#to-profile-selected-agents" class="md-nav__link">
-    To profile selected agents
+  <a href="#_1" class="md-nav__link">
+    選択したエージェントをプロファイルするには
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-configuration-document" class="md-nav__link">
-    The Configuration Document
+  <a href="#_2" class="md-nav__link">
+    構成ドキュメント
   </a>
   
 </li>
@@ -2143,7 +2143,7 @@
   
     <li class="md-nav__item">
       <a href="../log/" class="md-nav__link">
-        Profiler Log Database
+        Profiler ログデータベース
       </a>
     </li>
   
@@ -2161,7 +2161,7 @@
   
     <li class="md-nav__item">
       <a href="../troubleshooting/" class="md-nav__link">
-        Troubleshooting Profiler
+        トラブルシューティング
       </a>
     </li>
   
@@ -2607,22 +2607,22 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#to-create-a-profiler-configuration-database" class="md-nav__link">
-    To create a Profiler configuration database
+  <a href="#profiler_1" class="md-nav__link">
+    Profiler 設定データベースを作成するには
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#to-profile-selected-agents" class="md-nav__link">
-    To profile selected agents
+  <a href="#_1" class="md-nav__link">
+    選択したエージェントをプロファイルするには
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-configuration-document" class="md-nav__link">
-    The Configuration Document
+  <a href="#_2" class="md-nav__link">
+    構成ドキュメント
   </a>
   
 </li>
@@ -2640,111 +2640,110 @@
               
                 
                 
-                <h1 id="profiler-configuration-database">Profiler Configuration Database</h1>
-<p>Before you can use Profiler on the server, you must create a Profiler Configuration database.</p>
-<h2 id="to-create-a-profiler-configuration-database">To create a Profiler configuration database</h2>
+                <h1 id="profiler">Profiler 設定データベース</h1>
+<p>Profilerをサーバーで使用する前に、Profiler設定データベースを作成する必要があります。</p>
+<h2 id="profiler_1">Profiler 設定データベースを作成するには</h2>
 <ol>
-<li>Install Profiler on your server.</li>
-<li>From a Notes client, click <strong>File &gt; Application &gt; New</strong>. You see the <strong>New Application</strong> window.</li>
-<li>From the Server dropdown in the <strong>Specify New Application</strong> section, select the server you just installed to.</li>
-<li>In the <strong>Title</strong> box, enter the title you want.</li>
-<li>In the <strong>File Name</strong> box, enter Teamstudio\ProfilerConfig.nsf.</li>
-<li>From the <strong>Server</strong> dropdown in the <strong>Specify template for New Application</strong> section, select the server you just installed to.</li>
-<li>From the template list, select <strong>Teamstudio Profiler Configuration</strong> (profile.ntf).</li>
-<li>Make sure that <strong>Inherit future design changes</strong> check box is selected.</li>
-<li>Click <strong>OK</strong>.</li>
+<li>Profiler をサーバーにインストールします。</li>
+<li>ノーツクライアントから、<strong>[ファイル]&gt;[アプリケーション]&gt;[作成]</strong>をクリッ クします。<strong>[ 新規アプリケーション ]</strong> ウィンドウが表示されます。</li>
+<li><strong>[ 新規アプリケーション名と場所の指定 ]</strong> セクションの <strong>[ サーバー]</strong> ドロップダウンで、前の手順でインストールしたサーバーを選択します。</li>
+<li><strong>[ タイトル ]</strong> ボックスに、必要なタイトルを入力します。</li>
+<li><strong>[ ファイル名 ]</strong> ボックスに、Teamstudio\ProfilerConfig.nsf と入力します。</li>
+<li><strong>[ 新規アプリケーションのテンプレートの指定 ]</strong> セクションの <strong>[ サーバー ]</strong> ドロップダウンで、前の手順でインストールしたサーバーを選択します。</li>
+<li>テンプレートリストから<strong>[TeamstudioProfiler設定]</strong>(profile.ntf)を選択します。</li>
+<li><strong>[テンプレートを引き継いで設計]</strong> チェックボックスがオンになっていることを 確認してください。</li>
+<li><strong>[OK]</strong> をクリックします。Profiler 設定データベースが作成されます。</li>
 </ol>
-<p>Your Profiler configuration database has been created.</p>
-<h2 id="to-profile-selected-agents">To profile selected agents</h2>
+<h2 id="_1">選択したエージェントをプロファイルするには</h2>
 <ol>
-<li>Open the Profiler configuration database.<br />
-<img alt="Configuration Database" src="../../../profiler/img/configuration.png" /></li>
-<li>Click Create Agent Config Doc to add an agent to be profiled.<br />
-   You see the Select agent to profile window. </li>
+<li>Profiler 設定データベースを開きます。<br />
+<img alt="Configuration Database" src="../img/configuration.png" /></li>
+<li><strong>[エージェント設定文書を作成]</strong> をクリックしてプロファイルするエージェントを追加します。<br />
+<strong>[ プロファイルするエージェントを選択してください ]</strong> ウィンドウが表示され ます。</li>
 <li>
-<p>Click the <strong>Browse</strong> button to select a database to monitor.<br />
-<img alt="Select Database" src="../../../profiler/img/configuration2.png" />
+<p><strong>[ 参照 ]</strong> ボタンをクリックして監視するデータベースを選択します。<br />
+<img alt="Select Database" src="../img/configuration2.png" />
  <br />
 <div class="admonition">
      <p class="admonition-title">Note</p>
-     You must select a database on the same server as the Profiler configuration database.
+     同一サーバー内のデータベースを Profiler 設定データベースとして選択 する必要があります。
    </div></p>
 </li>
 <li>
-<p>Click the <strong>Get Agents</strong> button to view all the agents in the database.</p>
+<p><strong>[ エージェントの表示 ]</strong> ボタンをクリックすると、データベース内のすべてのエージェントが表示されます。</p>
 </li>
 <li>
-<p>Use the dropdown to select an agent from the database.<br />
-<img alt="Select Agent" src="../../../profiler/img/configuration3.png" />
+<p>ドロップダウンメニューを使ってデータベースからエージェントを選択します。<br />
+<img alt="Select Agent" src="../img/configuration3.png" />
  <br />
 <div class="admonition">
      <p class="admonition-title">Note</p>
-     Only LotusScript agents will be listed.
+     ロータススクリプトエージェントのみが一覧に表示されます。
    </div></p>
 </li>
 <li>
-<p>Click <strong>Select Agent</strong> to select an agent.<br />
-   You see information about the agent you selected.<br />
-<img alt="Agent Information" src="../../../profiler/img/configuration4.png" /></p>
+<p><strong>[ エージェントの選択 ]</strong> をクリックしてエージェントを選択します。<br />
+   選択したエージェントの情報が表示されます。<br />
+<img alt="Agent Information" src="../img/configuration4.png" /></p>
 </li>
-<li>Click <strong>OK</strong>.<br />
-   The next time the agent runs, Profiler will collect timing information and create a document in the Profiler Log database on the server.</li>
+<li><strong>[OK]</strong> をクリックします。<br />
+   次回エージェントが実行されるときに、Profiler が監視を行います。 </li>
 </ol>
-<h2 id="the-configuration-document">The Configuration Document</h2>
+<h2 id="_2">構成ドキュメント</h2>
 <figure>
-<p><img alt="Configuration Document" src="../../../profiler/img/configuration5.png" /></p>
+<p><img alt="Configuration Document" src="../img/configuration5.png" /></p>
 </figure>
-<p>The following configuration information is provided in this document:</p>
+<p>この文書内の設定情報は以下のとおりです。</p>
 <table>
 <thead>
 <tr>
-<th>Information</th>
-<th>Description</th>
+<th>情報</th>
+<th>説明</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Enabled</td>
-<td>Select Yes or No to enable or disable Profiler from monitoring this agent.</td>
+<td>有効</td>
+<td><strong>[ 有効 ]</strong> または <strong>[ 無効 ]</strong> を選択して、このエージェントに対する監視の有効/無効を設定します。</td>
 </tr>
 <tr>
-<td>Agent</td>
-<td>The name of the agent.</td>
+<td>エージェント</td>
+<td>エージェントの名前。</td>
 </tr>
 <tr>
-<td>Run Count</td>
-<td>Specify how many times Profiler should collect information on an agent.</td>
+<td>実行数</td>
+<td>エージェント情報が収集される回数を指定します。</td>
 </tr>
 <tr>
-<td>Profiled Runs</td>
-<td>The number of times the agent has been run since this was set or reset.</td>
+<td>プロファイルの実行回数</td>
+<td>設定またはリセットしてからエージェントが実行された回数。</td>
 </tr>
 <tr>
-<td>Options</td>
-<td>Specify an option, as selected on the Profiler window:<ul><li>Function Entry Points - collect information on function entry points</li><li>Functions and Lines - collect information on functions and lines of LotusScript</li><li>Functions - collect information on functions</li></ul></td>
+<td>オプション</td>
+<td>Profiler ウィンドウ内で選択されたオプションを指定します。<ul><li>関数のエントリポイント:関数のエントリポイントの情報を収集します。</li><li>関数と行: ロータススクリプトの関数と行に関する情報を収集します。</li><li>関数: 関数の情報を収集します。</li></ul></td>
 </tr>
 <tr>
-<td>User</td>
-<td>Profiler will only run when the agent is triggered by a particular user.</td>
+<td>ユーザー</td>
+<td>特定のユーザーによりエージェントが実行されたときのみ Profiler が稼働します。</td>
 </tr>
 <tr>
-<td>Agent Signer</td>
-<td>The ID file used to sign agents. This is only required when run on an R5 server.</td>
+<td>エージェント署名者</td>
+<td>エージェントの署名に使われる ID ファイル。これは R5 サーバー上で実行されるときのみ必要です。</td>
 </tr>
 <tr>
-<td>Agent Signer Password</td>
-<td>The password for the attached ID.<br/><strong>Note</strong>: This field is not encrypted and is stored as plain text.</td>
+<td>署名者のパスワード</td>
+<td>添付 ID のパスワード。<br/><strong>注記</strong>: のフィールドは暗号化されずに通常のテキスト として保存されます。</td>
 </tr>
 </tbody>
 </table>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Agent Signer and Agent Signer Password in the above table have some restrictions.</p>
-<p>When running on a Notes Release 6 server, these fields can be ignored. Profiler server runs using the Server ID. On Release 6, code signed by the server ID is allowed to run unrestricted. Signing with a special ID is unnecessary.  </p>
-<p>On Release 5, however, the server is not granted these rights by default. After Profiler modifies and resigns code, the server may not be able to execute it. To avoid this problem, use one of the following options:</p>
+<p>上記テーブル内のエージェント署名者と署名者パスワードには、いくつかの規制があります。</p>
+<p>たとえば、ノーツリリース 6 サーバー上で実行されている場合、これらのフィールドは無視されます。Profiler サーバーはサーバー ID を使って稼働します。リリース 6 では、サーバー ID で署名されたコードを無規制で実行できます。特別な ID で署名する必要はありません。  </p>
+<p>しかし、リリース 5 では、デフォルト設定ではサーバーにこれらの権利が与えられていません。Profiler でコードを修正して再度署名すれば、実行できる可能性があります。この問題を避けるには、以下のオプションのいずれかを使用してください。</p>
 <ul>
-<li>Add the server name to the Run unrestricted LotusScript agents field on the server configuration document.</li>
-<li>Add the signer ID to the agent configuration document.</li>
+<li>サーバー設定文書の [ 制限なし LotusScript エージェントの実行 ] フィールドにサーバー名を追加する。</li>
+<li>エージェント設定文書に署名者 ID を追加する。</li>
 </ul>
 </div>
                 
@@ -2766,7 +2765,7 @@
     <nav class="md-footer__inner md-grid" aria-label="フッター">
       
         
-        <a href="../server/" class="md-footer__link md-footer__link--prev" aria-label="前: Using Profiler Server" rel="prev">
+        <a href="../server/" class="md-footer__link md-footer__link--prev" aria-label="前: Profiler Server の使用" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -2775,20 +2774,20 @@
               <span class="md-footer__direction">
                 前
               </span>
-              Using Profiler Server
+              Profiler Server の使用
             </div>
           </div>
         </a>
       
       
         
-        <a href="../log/" class="md-footer__link md-footer__link--next" aria-label="次: Profiler Log Database" rel="next">
+        <a href="../log/" class="md-footer__link md-footer__link--next" aria-label="次: Profiler ログデータベース" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 次
               </span>
-              Profiler Log Database
+              Profiler ログデータベース
             </div>
           </div>
           <div class="md-footer__button md-icon">
