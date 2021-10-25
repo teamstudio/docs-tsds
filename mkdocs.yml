@@ -184,3 +184,6 @@ plugins:
       default_language: en
       languages:
         ja: 日本語
+      nav_translations:
+        ja:
+          Using Undo: Undo の使用

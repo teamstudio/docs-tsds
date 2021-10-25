@@ -6,7 +6,7 @@ Undo automatically keeps track of changes for all NTF files you work with, wheth
 If you prefer, you can manually configure Undo to keep track of changes to NSF files, or to keep track of changes within the files or folders you choose. 
 
 ## To configure tracking of all NSF files or only selected databases or folders
-1. In a text editor, open the Teamstudio.ini file, which is located in the data directory.
+1. In a text editor, open the **Teamstudio.ini** file, which is located in the data directory.
 2. In the [Undo] section, change the line that says "IncludeFiles=*.ntf" as follows:
 
 | To track the following | Change "IncludeFiles" line as follows |
