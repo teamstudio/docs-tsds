@@ -64,6 +64,63 @@ nav:
         - 'analyzer/scriptctxfilter.md'
         - 'analyzer/scripterrors.md'
         - 'analyzer/scriptsample.md'
+    - 'Teamstudio CIAO!':
+      - 'ciao/index.md'
+      - 'Using CIAO!':
+        - 'ciao/about.md'
+        - 'ciao/using.md'
+        - 'Working with Elements':
+          - 'ciao/designer.md'
+          - 'ciao/checkout.md'
+          - 'ciao/checkoutsafe.md'
+          - 'ciao/undocheckout.md'
+          - 'ciao/grab.md'
+          - 'ciao/checkin.md'
+          - 'ciao/recover.md'
+          - 'ciao/history.md'
+        - 'Making Versions':
+          - 'ciao/version.md'
+          - 'ciao/versionoptions.md'
+          - 'ciao/versionrestore.md'
+        - 'Reports':
+          - 'ciao/reportactivity.md'
+          - 'ciao/reportchange.md'
+        - 'ciao/promoting.md'
+        - 'ciao/preferences.md'
+      - 'Administering CIAO!':
+        - 'ciao/admin.md'
+        - 'ciao/adminalternate.md'
+        - 'ciao/adminenable.md'
+        - 'ciao/adminadd.md'
+        - 'ciao/admindocuments.md'
+        - 'Issue Tracking':
+          - 'ciao/issue.md'
+          - 'ciao/issuerequire.md'
+        - 'ciao/templates.md'
+        - 'ciao/comments.md'
+        - 'ciao/featureaccess.md'
+        - 'CIAO! Config Information':
+          - 'ciao/configbasics.md'
+          - 'ciao/configwatch.md'
+          - 'ciao/configauthority.md'
+          - 'ciao/configissues.md'
+          - 'ciao/configversioning.md'
+      - 'Log Database Reference':
+        - 'ciao/log.md'
+        - 'ciao/logentries.md'
+        - 'ciao/logviews.md'
+        - 'ciao/logfields.md'
+        - 'ciao/logforms.md'
+        - 'ciao/logmove.md'
+        - 'ciao/logacl.md'
+      - 'Calling CIAO! from LotusScript':
+        - 'ciao/script.md'
+        - 'ciao/scriptchangelist.md'
+        - 'ciao/scriptcheckoutreport.md'
+        - 'ciao/scriptcheckinnote.md'
+        - 'ciao/scriptmakeversion.md'
+        - 'ciao/scriptstringload.md'
+        - 'ciao/scriptagents.md'
     - 'Teamstudio Configurator':
       - 'configurator/index.md'
       - 'Using Configurator':
@@ -182,6 +239,7 @@ plugins:
   - search
   - i18n:
       default_language: en
+      default_language_only: true
       languages:
         ja: 日本語
       nav_translations:
