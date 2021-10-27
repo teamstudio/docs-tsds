@@ -20,7 +20,7 @@ Significant new **Build Steps** include:
 
 Detailed descriptions of the available functions are available from the [Build Steps](ciao/buildsteps.md) page. For more information on **Promotions** in general, see [Promotion Paths](ciao/promotionpaths.md).
 
-The new **Build Steps** represent a subset of the features available in Teamstudio Build Manager, which offers many additional capabilities to manage complex builds, including the ability to promote using different Notes IDs to support segregation of duties, Release Management/Deployment Tracking features, and Approval workflows. For a comparison of CIAO! and Build Manager, see [Product Comparison - CIAO! and Build Manager](ciao/ciaovsbm.md).
+The new **Build Steps** represent a subset of the features available in Teamstudio Build Manager, which offers many additional capabilities to manage complex builds, including the ability to promote using different Notes IDs to support segregation of duties, Release Management/Deployment Tracking features, and Approval workflows. For a comparison of CIAO! and Build Manager, see [Product Comparison - CIAO! and Build Manager](ciao/promotioncompare.md).
 
 ## Upgrading CIAO! Configuration Database
 The updated Edition 33 CIAO! Configuration database is designed to continue working with existing **Promotion Paths**. A minor upgrade process is required, due to additional features added to the product.

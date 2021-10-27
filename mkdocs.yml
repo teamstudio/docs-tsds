@@ -105,6 +105,33 @@ nav:
           - 'ciao/configauthority.md'
           - 'ciao/configissues.md'
           - 'ciao/configversioning.md'
+      - 'Promotion Paths':
+        - 'ciao/promotionpaths.md'
+        - 'ciao/promotionbuilding.md'
+        - 'ciao/promotionworking.md'
+        - 'ciao/promotionrunning.md'
+        - 'ciao/promotionproject.md'
+        - 'ciao/promotioncompare.md'
+        - 'Build Steps':
+          - 'ciao/buildsteps.md'
+          - 'ciao/bsacl.md'
+          - 'ciao/bscompile.md'
+          - 'ciao/bscopy.md'
+          - 'ciao/bsdbproperties.md'
+          - 'ciao/bsaudit.md'
+          - 'ciao/bselemproperties.md'
+          - 'ciao/bsemail.md'
+          - 'ciao/bsversion.md'
+          - 'ciao/bsrefresh.md'
+          - 'ciao/bssearch.md'
+          - 'ciao/bssign.md'
+        - 'Stored Resources':
+          - 'ciao/stored.md'
+          - 'ciao/storedpaths.md'
+          - 'ciao/storedaclentry.md'
+          - 'ciao/storedacls.md'
+          - 'ciao/storedids.md'
+          - 'ciao/storedservers.md'
       - 'Log Database Reference':
         - 'ciao/log.md'
         - 'ciao/logentries.md'
@@ -239,7 +266,7 @@ plugins:
   - search
   - i18n:
       default_language: en
-      default_language_only: true
+      default_language_only: false
       languages:
         ja: 日本語
       nav_translations:

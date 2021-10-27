@@ -1,4 +1,4 @@
-# Promotion Paths
+# Overview
 
 Promotion Paths define targets for moving source templates to new environments when [Promoting a Database](promoting.md).
 
@@ -13,7 +13,7 @@ Two types of CIAO! documents form the basis for building and promoting databases
 
  
 ## Database Documents
-Configuration documents are created by CIAO! when a source database is placed under CIAO! control, as described in [Using CIAO!](using.md) For information on configuring database documents, see [Understanding CIAO! Config Information](config.md).
+Configuration documents are created by CIAO! when a source database is placed under CIAO! control, as described in [Using CIAO!](using.md) For information on configuring database documents, see [Understanding CIAO! Config Information](configbasics.md).
 
 For promotions, CIAO! uses the Database Document to identify the source template which the build will copy and act on, and can be created:
 
