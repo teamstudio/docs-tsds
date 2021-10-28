@@ -204,6 +204,33 @@ nav:
         - 'delta/script.md'
         - 'delta/scriptreport.md'
         - 'delta/scriptstringload.md'
+    - 'Teamstudio Design Manager':
+      - 'dm/index.md'
+      - 'dm/starting.md'
+      - 'Running Design Manager':
+        - 'dm/dbopening.md'
+        - 'dm/libopening.md'
+        - 'dm/usedlibopening.md'
+        - 'dm/libclosing.md'
+        - 'dm/inherdbopening.md'
+        - 'dm/grouping.md'
+        - 'dm/deleting.md'
+        - 'dm/comparing.md'
+        - 'dm/comments.md'
+        - 'dm/previewing.md'
+        - 'dm/viewing.md'
+        - 'dm/dbsaving.md'
+      - 'Working with Databases and Libraries':
+        - 'dm/libfilters.md'
+        - 'dm/copying.md'
+        - 'dm/inheritance.md'
+        - 'dm/dependencies.md'
+        - 'dm/unlinking.md'
+        - 'dm/prohibitrefresh.md'
+        - 'dm/scanning.md'
+        - 'dm/syncing.md'
+        - 'dm/copyhistory.md'
+        - 'dm/actions.md'
     - 'Teamstudio Profiler':
       - 'profiler/index.md'
       - 'Profiler Client':
