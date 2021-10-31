@@ -299,3 +299,5 @@ plugins:
       nav_translations:
         ja:
           Using Undo: Undo の使用
+          Common Errors: よく発生するエラーの種類について
+          Calling Validator from LotusScript: ロータススクリプトから Validator を呼び出す
