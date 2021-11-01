@@ -4930,10 +4930,12 @@
                 <h1 id="copying-design-elements-using-drag-and-drop">Copying Design Elements Using Drag-and-Drop</h1>
 <p>You can use drag-and-drop to copy design elements, along with their dependencies, from an open library template or database into an open database. (See <a href="../dependencies/">Identifying Dependencies</a> for more information on dependencies.)</p>
 <h2 id="copying-actions">Copying Actions</h2>
-<p>You can copy actions from the left pane to the right pane using drag-and-drop or by clicking the blue arrow buttons.
-* If you drag and drop an action onto a database name, the action is copied into the Shared Actions note. Design Manager creates a Shared Actions note if one does not already exist.
-* If you drop an action onto a form or view, the action reference is copied into that form or view.
-* When you copy an Action reference from a form, for example, Teamstudio Design Manager looks up the shared action, then creates a copy in your destination form that is not shared.</p>
+<p>You can copy actions from the left pane to the right pane using drag-and-drop or by clicking the blue arrow buttons.</p>
+<ul>
+<li>If you drag and drop an action onto a database name, the action is copied into the Shared Actions note. Design Manager creates a Shared Actions note if one does not already exist.</li>
+<li>If you drop an action onto a form or view, the action reference is copied into that form or view.</li>
+<li>When you copy an Action reference from a form, for example, Teamstudio Design Manager looks up the shared action, then creates a copy in your destination form that is not shared.</li>
+</ul>
 <h2 id="to-copy-an-element-from-the-left-pane-to-an-open-database">To copy an element from the left pane to an open database</h2>
 <p>See <a href="../inheritance/">About Template Inheritance</a>, before you begin copying.</p>
 <ul>
@@ -4941,9 +4943,9 @@
 </ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
+<p>You cannot copy from the database in the right pane to the template or database in the left pane.<br />
+When using drag and drop, you can only copy into one target database. </p>
 </div>
-<p>You cannot copy from the database in the right pane to the template or database in the left pane. 
-   When using drag and drop, you can only copy into one target database. </p>
 <p>If you are using the Copy History Log feature (See <a href="../copyhistory/">Setting the Copy History Log</a>), each copy activity from Design Manager is recorded.</p>
 <h2 id="copying-duplicate-elements">Copying Duplicate Elements</h2>
 <p>Design Manager checks the target database to determine if elements with the same name already exist. It compares the title and aliases, not the design. When it finds the same element, you see the following message:</p>
