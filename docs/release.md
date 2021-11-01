@@ -38,7 +38,7 @@ Upgrading from a prior CIAO! template involves:
 For more information on the **Verify Stored Servers** action, see [Stored Servers](ciao/storedservers.md).
 
 ## Template Updates
-The Teamstudio Notes Tools utilize several Notes application templates for configuration and reporting. All templates have updated for Edition 33, including updated UI look and feel and new icons.  Several templates also include usability improvements.
+The Teamstudio Notes Tools utilize several Notes application templates for configuration and reporting. All templates have updated for Edition 33, including updated UI look and feel and new icons. Several templates also include usability improvements.
 
 ## Fix List
 ### 33.0.4
