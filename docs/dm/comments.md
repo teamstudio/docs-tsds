@@ -11,9 +11,9 @@ You can add comments to a design element. The comments display in Design Manager
    <div><table>
      <tr><th>Item</th><th>Description</th></tr>
      <tr><td>Title</td><td>Element, action or database name</td></tr>
-     <tr><td>Inherit from Template</td><td><The template from which you want this template to inherit</td></tr>
+     <tr><td>Inherit from Template</td><td>The template from which you want this template to inherit</td></tr>
      <tr><td>Prohibit design refresh or replace to modify</td><td>Select to ensure the design element's code remains unchanged by any design or refresh operation</td></tr>
-     <tr><td>Comment</td><td<Any text you wish to use as a comment</td></tr>
+     <tr><td>Comment</td><td>Any text you wish to use as a comment</td></tr>
    </table>  
    If the database is a template, the template name will appear in the <b>Database is a Template</b> field.</div>
 4. Click **Save**.

@@ -4,6 +4,7 @@ You can use drag-and-drop to copy design elements, along with their dependencies
 
 ## Copying Actions
 You can copy actions from the left pane to the right pane using drag-and-drop or by clicking the blue arrow buttons.
+
 * If you drag and drop an action onto a database name, the action is copied into the Shared Actions note. Design Manager creates a Shared Actions note if one does not already exist.
 * If you drop an action onto a form or view, the action reference is copied into that form or view.
 * When you copy an Action reference from a form, for example, Teamstudio Design Manager looks up the shared action, then creates a copy in your destination form that is not shared.
@@ -14,8 +15,8 @@ See [About Template Inheritance](inheritance.md), before you begin copying.
 * To copy an element from the left pane into the open database in the right pane, click the element in the left pane, and then drag it into the right pane.
  
 !!! note
-   You cannot copy from the database in the right pane to the template or database in the left pane. 
-   When using drag and drop, you can only copy into one target database. 
+    You cannot copy from the database in the right pane to the template or database in the left pane.  
+    When using drag and drop, you can only copy into one target database. 
  
 If you are using the Copy History Log feature (See [Setting the Copy History Log](copyhistory.md)), each copy activity from Design Manager is recorded.
 

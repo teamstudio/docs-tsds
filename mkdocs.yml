@@ -300,6 +300,9 @@ plugins:
         ja:
           Installation Guide: インストールガイド
           Installing Client-Based Modules: クライントモジュールのインストール
+          User Guide: ユーザーガイド
+          Running Design Manager: Design Manager の実行
+          Working with Databases and Libraries: データベースとライブラリの使い方
           Using Undo: Undo の使用
           Common Errors: よく発生するエラーの種類について
           Calling Validator from LotusScript: ロータススクリプトから Validator を呼び出す

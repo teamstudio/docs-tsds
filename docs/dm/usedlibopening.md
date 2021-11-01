@@ -6,5 +6,5 @@ To open all libraries that a database design inherits from, select at least one 
 
 ## To identify and open all the libraries used by a particular database design
 1. Select at least one database in the right pane.
-2. From the **Database** menu, choose **Open Used Libraries**
+2. From the **Database** menu, choose **Open Used Libraries**.
 3. From the **Server** dropdown, select the server you want to search, then click **OK**.
