@@ -8,4 +8,4 @@ Similarly, the keyword list behind the Status field may consist of the following
 
 You can even make your application entirely configurable by creating completely generalized keyword lists that define list members as “[#Item1#]”; “[#Item2#]”, and so on.
 
-Using Configurator you can build a form where every piece of static text is configurable. Your application runs significantly more quickly and efficiently when you use Configurator than when you use run-time @DBLookup commands
+Using Configurator you can build a form where every piece of static text is configurable. Your application runs significantly more quickly and efficiently when you use Configurator than when you use run-time @DBLookup commands.
