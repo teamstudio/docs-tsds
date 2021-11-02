@@ -1,6 +1,7 @@
 # Overview
 
 You can save and print a report listing all of the design element or document differences in a database. If the report provides too much or not enough detail, you can filter the results using the **Options** on the **General** tab ([Delta Options](reportoptions.md)) on the Teamstudio Delta Reporting window, or the settings on the CD Filter tab ([Filtering Low-level Information](reportfilter.md)).
+
 If you are printing document differences, be sure to read [Simplifying Data Document Reports](reportdata.md).
 
 ## To create a Difference Report

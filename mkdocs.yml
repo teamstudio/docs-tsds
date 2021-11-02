@@ -304,6 +304,10 @@ plugins:
           Using Configurator: Configurator の使用
           Selecting Match Options for Searches: 検索の一致オプションの選択
           Calling Configurator from LotusScript: ロータススクリプトから Configurator を呼び出す
+          Comparing Elements or Documents: 要素または文書の比較
+          Viewing Differences: 相違の表示
+          Creating Difference Reports: 相違点レポートの作成
+          Calling Delta from LotusScript: ロータススクリプトから Delta を呼び出す
           Running Design Manager: Design Manager の実行
           Working with Databases and Libraries: データベースとライブラリの使い方
           Using Undo: Undo の使用
