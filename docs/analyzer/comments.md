@@ -1,12 +1,12 @@
 # Adding Comments to Design Elements
 
-You can add user data, for example, comments, description, change history, or development status to the Analysis documents for major design elements. To view the comment area, click the **Note** tab at the top of an analysis document.
+You can add user data, for example, comments, description, change history, or development status to the Analysis documents for major design elements. To view the comment area, click the **Notes** tab at the top of an analysis document.
 <figure markdown="1">
   ![Comments](img/comments.png)
 </figure>
-Double-click the document to make it editable and to display the development status options within the **Note** area.
+Double-click the document to make it editable and to display the development status options within the **Notes** area.
 
-Items such as buttons and hotspots that Analyzer creates documents for do not have a corresponding design element in the application database. Consequently, they are difficult to identify reliably from one run to the next. Accordingly, the **Note** field is not included on those documents. Field documents do contain the **Note** field since they rarely change names and aliases.
+Items such as buttons and hotspots that Analyzer creates documents for do not have a corresponding design element in the application database. Consequently, they are difficult to identify reliably from one run to the next. Accordingly, the **Notes** field is not included on those documents. Field documents do contain the **Notes** field since they rarely change names and aliases.
 
 You can create a separate document to record any additional information about a major design element document in the analysis database (for example, a description of a design element or maintenance history). You can access a sample document, named **Additional Documentation Sample**, from the **Create** menu. 
 

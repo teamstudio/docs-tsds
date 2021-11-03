@@ -1,4 +1,4 @@
-# Auditing Overview
+# Overview
 
 You are often faced with the difficult task of examining a database design to ensure it can meet some, unique, criteria. Examples of this are:
 

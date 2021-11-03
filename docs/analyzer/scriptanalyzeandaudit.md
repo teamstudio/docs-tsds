@@ -9,12 +9,12 @@ status = DEANAnalyzeAndAudit( <Design>, <Analysis>, <Title>, <Template>, <AuditI
 ```
 
 ## Parameters
-| Parameter | Input/Output | Type | Description
+| Parameter | Input/Output | Type | Description |
 | --- | --- | --- | --- |
 | Design | Input | String | The path of the database to analyze. Separate server and pathname with !! |
 | Analysis | Input | String | The path of the analysis output database. Separate server and pathname with !! |
 | Title | Input | String | The title to be used if a new analysis database is created. |
-| Template | Input | String | The path to the template to use if a new analysis database is created. | Separate server and pathname with !!. Specify the empty string, "", to use the default template.
+| Template | Input | String | The path to the template to use if a new analysis database is created.  Separate server and pathname with !!. Specify the empty string, "", to use the default template.
 | AuditIn | Input | String | The path to the Auditor filter database. Separate server and pathname with !! |
 | AuditOut | Input | String | The path to the Auditor output database. Separate server and pathname with !! | 
 | AuditOutTitle | Input | String | The title to use if the Auditor output database needs to be created. |

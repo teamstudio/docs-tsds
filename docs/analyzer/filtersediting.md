@@ -10,7 +10,7 @@ You can change the specifications of an existing filter or create a new filter.
 3. Define the new filter by creating the following fields:
    <p><table><tr><th>Field></th><th>Description</th></tr>
      <tr><td>Filter Name</td><td>The purpose of the filter, for example, agents using Java code.</td></tr>
-     <tr><td>Filter Active></td><td><strong>Yes/No</strong> indicates whether the filter should be included when one of its classes is chosen for processing.</td></tr>
+     <tr><td>Filter Active</td><td><strong>Yes/No</strong> indicates whether the filter should be included when one of its classes is chosen for processing.</td></tr>
      <tr><td>Severity</td><td>The relative importance of items matching this filter.</td></tr>
      <tr><td>Filter Class</td><td>One or more groups (classes) to which the filter belongs.</td></tr>
      <tr><td>Comment</td><td>The reason to use the filter, for example, Release A to Release B upgrade.</td></tr>

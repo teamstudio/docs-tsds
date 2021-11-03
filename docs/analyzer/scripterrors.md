@@ -6,7 +6,7 @@ These are possible return values for any of the Analyzer functions.
 | --- | --- |
 | NOERROR (0) | Operation completed successfully. |
 | 0-65535 | Notes API error codes. |
-| 65536 and above	| Teamstudio error codes 
+| 65536 and above	| Teamstudio error codes |
 
 | Teamstudio Error Code Value	| Meaning |
 | --- | --- |

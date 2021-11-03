@@ -11,7 +11,7 @@ status = DEANAnalyzeW32( <Design>, <Analysis>, <Flags> )
 ## Parameters
 | Parameter | Input/Output | Type | Description |
 | --- | --- | --- | --- |
-|Design | Input | String | The path of the database to analyze. Separate server and pathname with !!
+|Design | Input | String | The path of the database to analyze. Separate server and pathname with !! |
 | Analysis | Input | String | The path of the analysis output database. Separate server and pathname with !! |
 | Flags | Input | Long | This parameter allows you to control how Analyzer runs. You can pass any of the [DBDEAN Flag Constants](scriptflags.md). You can pass a combination of flags by using a plus sign (+) to combine them. |
 

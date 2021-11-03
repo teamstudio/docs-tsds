@@ -2,7 +2,7 @@
 
 The following table shows examples of filters you can create. Procedures for creating them follow the table.
 
-<table
+<table>
 <tr><th>Filter Example</th><th>Description</th></tr>
 <tr><td>Search for static text</td>
 <td>You can search your database for instances of a particular @Function such as <strong>@Do</strong>. To do this, create a filter that searches for <strong>@Do</strong> using the <strong>TMSRTContains</strong> formula. Use whole word matching, or the search result will include other functions that begin with <strong>@Do</strong>, such as <strong>@Doc</strong>, <strong>@DoChildren</strong>, and <strong>@DocFields</strong>.</td></tr>

@@ -301,6 +301,13 @@ plugins:
           Installation Guide: インストールガイド
           Installing Client-Based Modules: クライントモジュールのインストール
           User Guide: ユーザーガイド
+          Using Analyzer: Analyzer の使用
+          Auditing A Design: 設計の監査
+          The Audit Function: 監査機能
+          The Analysis Output Database: 分析結果データベース
+          Analyzer's Filters: Analyzer フィルタ
+          Filters for Advanced Users: 上級ユーザー向け監査機能フィルタ
+          Calling Analyzer from LotusScript: ロータススクリプトから Analyzer を呼び出す
           Using Configurator: Configurator の使用
           Selecting Match Options for Searches: 検索の一致オプションの選択
           Calling Configurator from LotusScript: ロータススクリプトから Configurator を呼び出す
