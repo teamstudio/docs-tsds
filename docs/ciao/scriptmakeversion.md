@@ -14,7 +14,7 @@ status = CIAOMakeVersion( <SourcePath>, <VersionLabel>, <Comment>, <VersionFlags
 | SourcePath | Input | String | The path to the Notes database that you want to process. Separate server and pathname with !! This database must be under CIAO! control and have the correct log specified in the CIAO! configuration. |
 | VersionLabel | Input | String | The version label used in the Make Version process. This string cannot be blank. |
 | Comment | Input | String | The version comment. This string can only be blank if Force Comments is not set in the CIAO! configuration. |
-| VersionFlags | Input | Long | Flags to control the change in the version number of the new release.
+| VersionFlags | Input | Long | Flags to control the change in the version number of the new release. |
 | Flags | Input | Long | Flags to control what is written to the report. |
 
 ## Version Flags

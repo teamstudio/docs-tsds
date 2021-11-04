@@ -11,7 +11,7 @@ status = CIAOStringLoad( <Status>, <Message>, <MessageBufferSize> )
 ## Parameters
 | Parameter | Input/Output | Type | Description |
 | --- | --- | --- | --- |
-| Status | Input | Long | The numeric value returned by one of the DEANxxx functions. |
+| Status | Input | Long | The numeric value returned by one of the CIAOxxx functions. |
 | Message | Output | String | This is a string that will receive the message text associated with the status code. |
 | MessageBufferSize | Input | Long | This is the maximum size that the string should be. |
 

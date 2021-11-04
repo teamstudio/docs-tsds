@@ -308,6 +308,18 @@ plugins:
           Analyzer's Filters: Analyzer フィルタ
           Filters for Advanced Users: 上級ユーザー向け監査機能フィルタ
           Calling Analyzer from LotusScript: ロータススクリプトから Analyzer を呼び出す
+          Using CIAO!: CIAO! の使用
+          Working with Elements: 要素の使い方
+          Making Versions: バージョンの作成
+          Reports: レポート
+          Administering CIAO!: CIAO! の管理
+          Issue Tracking: 問題追跡
+          CIAO! Config Information: CIAO! 設定情報
+          Promotion Paths: プロモーションパス
+          Build Steps: ビルドステップ
+          Stored Resources: 格納リソース
+          Log Database Reference: ログデータベースの参照
+          Calling CIAO! from LotusScript: ロータススクリプトから CIAO! を呼び出す
           Using Configurator: Configurator の使用
           Selecting Match Options for Searches: 検索の一致オプションの選択
           Calling Configurator from LotusScript: ロータススクリプトから Configurator を呼び出す

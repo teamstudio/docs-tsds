@@ -1,6 +1,6 @@
 # Design Audit
 
-Use Teamstudio Build Manager to configure a design audit for one or more databases.
+Use Teamstudio CIAO! to configure a design audit for one or more databases.
 
 **Note**: This action requires that a licensed copy of Teamstudio Analyzer is installed on each workstation that is performing a promotion and Reader access to the selected filters database. 
  

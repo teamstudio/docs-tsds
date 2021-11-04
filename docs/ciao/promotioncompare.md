@@ -4,9 +4,9 @@ The Teamstudio CIAO! configuration database contains **Promotion** functionality
 
 The Promotion features included with CIAO! are intended to provide developers and administrators the capability of standardizing and automating the deployment of typical Notes applications, producing repeatable builds with relatively low complexity in configuration.
 
-Teamstudio Build Manager includes several additional capabilities to manage complex deployments and providing support for more advanced environments.  Build manager includes functionality to work with multi-stage release processes (test/QA/UAT), release management, approval processes, and deployment tracking.
+Teamstudio Build Manager includes several additional capabilities to manage complex deployments and providing support for more advanced environments. Build manager includes functionality to work with multi-stage release processes (test/QA/UAT), release management, approval processes, and deployment tracking.
 
-The following table highlights the key features of each product.  For more information on Build Manager, see the Build Manager online [documentation](/docs-bm), contact your account manager, or email us at [techsupport@teamstudio.com](mailto:techsupport@teamstudio.com).
+The following table highlights the key features of each product. For more information on Build Manager, see the Build Manager online [documentation](/docs-bm), contact your account manager, or email us at [techsupport@teamstudio.com](mailto:techsupport@teamstudio.com).
   
 | Feature | CIAO! | Build Manager | Description |
 | --- | --- | --- | --- |
