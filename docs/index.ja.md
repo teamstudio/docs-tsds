@@ -1,2 +1,2 @@
 # ドキュメンテーション
-これは Teamstudio NotesTools Edition 33 のドキュメンテーションです。
+これは Teamstudio NotesTools Edition 34 のドキュメンテーションです。
