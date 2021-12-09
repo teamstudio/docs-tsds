@@ -8,7 +8,7 @@ Each Teamstudio client product is protected by a serial number and key. You must
    ![Open License Manager](img/initializing.png)  
    If you choose *No* the tool will terminate.
 3. The License Manager is displayed. This shows all of the serial numbers and keys that you currently have installed on your computer.  
-   ![License Manager](img/initializing2.png)
+   ![License Manager](img/initializing2.png)  
    If you have any subscription licences, the *Expires* column will show the expiration date of each subscription.
 4. The easiest way to add your new key or keys is to locate the email you received from Teamstudio with your serial numbers and keys and copy the entire email to the clipboard. Then return to the License Manager and click the *Import...* button. A new window will display showing all of the key information found in the email. Click *Import Selected* to import the new key information and then click *OK* to close the *Import Licenses* window.
 5. If you do not have the email or want to enter keys manually, you can use the *Add...* button to bring up a new window allowing you to add new licenses, one product at a time.
