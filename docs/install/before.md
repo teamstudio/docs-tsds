@@ -3,7 +3,7 @@
 ## Review System Requirements
 Teamstudio Client has the following system requirements:
 
-* Windows Vista, Windows 7, Windows 8 and Windows 10 versions supported by Notes on Intel platforms
+* Windows 7, Windows 8, Windows 10 and Windows 11 versions supported by Notes on Intel platforms
   <div class="admonition note">
     <p class="admonition-title">Note</p>
     <p>Microsoft has discontinued support for Windows XP and Windows Server 2003. Teamstudio Tools are not supported on these platforms. Please contact your account manager if you have questions about running our tools on Windows XP or Windows Server 2003.</p>

@@ -3,7 +3,7 @@
 ## システム要件の確認
 Teamstudio クライアント製品は次のシステム要件が必要です:
 
-* Windows Vista, Windows 7, Windows 8, Windows 10 など Intel プラットフォーム上の Notes がサポートする Windows の各バージョン
+* Windows 7, Windows 8, Windows 10, Windows 11 など Intel プラットフォーム上の Notes がサポートする Windows の各バージョン
   <div class="admonition note">
     <p class="admonition-title">Note</p>
     <p>Microsoft は すでに Windows XP と Windows Server 2003 のサポートを打ち切りました。Edition 33 以降はこれらのプラットフォームをサポートしていません。Windows XP および Windows Server 2003 上での弊社製品のご利用に関するご質問は弊社担当営業までお問い合わせください。</p>
