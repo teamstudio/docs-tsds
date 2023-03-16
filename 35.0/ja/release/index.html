@@ -4829,15 +4829,15 @@
       
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    不具合修正
+    不具合修正リスト
   </a>
   
-    <nav class="md-nav" aria-label="不具合修正">
+    <nav class="md-nav" aria-label="不具合修正リスト">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#3400" class="md-nav__link">
-    34.0.0
+  <a href="#3500" class="md-nav__link">
+    35.0.0
   </a>
   
 </li>
@@ -4883,15 +4883,15 @@
       
         <li class="md-nav__item">
   <a href="#_2" class="md-nav__link">
-    不具合修正
+    不具合修正リスト
   </a>
   
-    <nav class="md-nav" aria-label="不具合修正">
+    <nav class="md-nav" aria-label="不具合修正リスト">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#3400" class="md-nav__link">
-    34.0.0
+  <a href="#3500" class="md-nav__link">
+    35.0.0
   </a>
   
 </li>
@@ -4915,11 +4915,19 @@
                 
 
 <h1 id="_1">リリースノート</h1>
-<p>Edition 34 は Teamstudio Notes Tools の機能リリースです。シリアル番号とキーを管理する新しい UI に加えて、このリリースでは最新版の Notes と Windows に対応するための数多くの内部的なアップグレードが組み込まれています。</p>
-<p>新機能のキー管理 UI の詳細は<a href="../install/initializing/">Teamstudio Tools の初期化</a>を参照してください。</p>
-<h2 id="_2">不具合修正</h2>
-<h3 id="3400">34.0.0</h3>
-<p>179986684 Configurator で Java ファイルを検索できるようになりました</p>
+<p>Edition 35 は Teamstudio Notes Tools の機能拡張リリースです。主要な新機能は HCL 12.0.2 64 ビット版 Designer クライアントのサポートです。Profiler 以外のすべての Teamstudio ツールは、64 ビット環境で実行するように更新されました。内部実装の詳細により、Profiler は 32 ビット版 Notes クライアントで完全にサポートされ続けますが、64 ビット版では利用できません。  </p>
+<div class="admonition 注意">
+<p class="admonition-title">注意</p>
+<p>32 ビット版 Notes 用と 64 ビット版 Notes 用に別々のインストーラがあります。Windows のバージョンではなく、<strong>Notes</strong> のバージョンに合ったインストーラーを選択する必要があります。つまり、64 ビット版 Windows 上で 32 ビット版 Notes を実行している場合は、32ビット版のインストーラーが必要です。インストーラーは Notes のバージョンをチェックし、Notes のバージョンと一致しないツールのバージョンをインストールできないようになっています。</p>
+</div>
+<p>64 ビット版のサポートに加えて、CIAO! UI のパフォーマンスを大幅に最適化しました。低速な接続でも、CIAO の起動やチェックイン/アウト操作後の UI の更新に大きなパフォーマンス改善があります。</p>
+<h2 id="_2">不具合修正リスト</h2>
+<h3 id="3500">35.0.0</h3>
+<p>184300373 Design Manager において「ライブラリペインで開く」時のクラッシュを修正<br />
+184331236 CIAO UI で「変更日時（このファイルで）」ではなく「変更日時（最初に）」を表示するように修正<br />
+184331249 CIAO UI の軽微なパフォーマンス改善<br />
+184331185 CIAO UI の文字セット変換を最適化<br />
+184444716 TMSIncludeParent ルール での Analyzer Audit の稀なフリーズを修正</p>
 
               
             </article>
