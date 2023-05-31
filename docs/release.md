@@ -8,6 +8,10 @@ Edition 35 is a feature release of the Teamstudio Notes tools. The primary new f
 In addition to 64 bit support, we have significantly optimized the performance of the CIAO! UI, especially over slow connections. There are major performance improvements both in launching CIAO and in updating the UI after a checkin/out operation.
  
 ## Fix List
+### 35.0.1
+185131099 Update code signing certificate  
+185296430 Install correct templates for 64 bit Japanese
+
 ### 35.0.0
 184300373 Fixed crash in 'Open in Library Pane' using Design Manager  
 184331236 Display 'Modified (initially)' rather than 'Modified (in this file)' in the CIAO UI  
