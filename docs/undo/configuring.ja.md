@@ -12,7 +12,7 @@ NSF ファイルの変更を追跡するように、または選択したファ�
 | 追跡対象 | 「IncludeFiles」の変更内容 |
 | --- | --- |
 | すべての NSF ファイルのみ | IncludeFiles=*.nsf |
-| すべての NTF ファイルと NSF ファイル | IncludeFiles=*.ntf,*.nsf |
+| すべての NTF ファイルと NSF ファイル | IncludeFiles=\*.ntf,\*.nsf |
 | い く つ か の 必 要 な デ ー タベースのみ(例:mytest1.ntf と mytest2.ntf) | IncludeFiles=mytest1.ntf,mytest2.ntf |
 | 1 つのディレクトリのみ (例:mail フォルダ) | IncludeFiles=mail/* |
 

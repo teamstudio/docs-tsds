@@ -12,7 +12,7 @@ If you prefer, you can manually configure Undo to keep track of changes to NSF f
 | To track the following | Change "IncludeFiles" line as follows |
 | --- | --- |
 | All NSF files only | IncludeFiles=*.nsf |
-| All NTF and all NSF files | IncludeFiles=*.ntf,*.nsf |
+| All NTF and all NSF files | IncludeFiles=\*.ntf,\*.nsf |
 | Just a few databases you want, for example, mytest1.ntf and mytest2.ntf | IncludeFiles=mytest1.ntf,mytest2.ntf |
 | One directory only, for example, the mail folder | IncludeFiles=mail/* |
 
