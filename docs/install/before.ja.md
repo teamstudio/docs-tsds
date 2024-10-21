@@ -8,11 +8,12 @@ Teamstudio クライアント製品は次のシステム要件が必要です:
     <p class="admonition-title">Note</p>
     <p>Microsoft は すでに Windows XP と Windows Server 2003 のサポートを打ち切りました。Edition 33 以降はこれらのプラットフォームをサポートしていません。Windows XP および Windows Server 2003 上での弊社製品のご利用に関するご質問は弊社担当営業までお問い合わせください。</p>
   </div>
-* HCLが現在サポートするNotes 9.0.x 以上のバージョン
+* HCLが現在サポートするNotesバージョン
   <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>Teamstudio Notes Tools typically work without issue on earlier versions of Notes, and technical support is available for customers on legacy versions of Notes. Teamstudio may not, however, be able to provide fixes for issues that are specific to unsupported versions of Notes. For more information on installing Teamstudio tools on earlier versions of Notes, contact <a href="mailto:techsupport@teamstudio.com">techsupport@teamstudio.com</a>.</p>
-    <p>HCL がサポートする Notes のバージョンを確認するには、次の HCL のサポートライフサイクルのサイトをご確認ください。<a href="https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0068850&sys_kb_id=d9e7f06e1be51cd0f37655352a4bcb4d">https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0068850&sys_kb_id=d9e7f06e1be51cd0f37655352a4bcb4d</a>(HCL英語サイトが開きます)</p>
+    <P>Teamstudio Notes Toolsは、Notesの以前のバージョンでも動作し、テクニカルサポートもお客様に提供いたします。但し、HCLがサポートしていないNotesバージョン固有の問題に対しての修正をTeamstudioが提供できない場合がございます。その場合は、HCLがサポートしているNotesバージョンをご利用ください。</p>
+    <p>以前のバージョンのNotesにTeamstudio NotesToolsをインストールする方法の詳細については、<a href="mailto:techsupport_japan@teamstudio.com">techsupport_japan@teamstudio.com</a>　にご連絡ください。</p>
+    <p>HCL がサポートする Notes のバージョンを確認するには、次の HCL のサポートライフサイクルのサイトをご確認ください。<a href="https://www.hcl-software.com/jp/resources/product-release/search">https://www.hcl-software.com/jp/resources/product-release/search</a>(HCL英語サイトが開きます)</p>
   </div>
 * 約 50 MB のハードディスク空き容量
 * HCL Notes が動作する充分な RAM

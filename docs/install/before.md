@@ -12,7 +12,7 @@ Teamstudio Client has the following system requirements:
   <div class="admonition note">
     <p class="admonition-title">Note</p>
     <p>Teamstudio Notes Tools typically work without issue on earlier versions of Notes, and technical support is available for customers on legacy versions of Notes. Teamstudio may not, however, be able to provide fixes for issues that are specific to unsupported versions of Notes. For more information on installing Teamstudio tools on earlier versions of Notes, contact <a href="mailto:techsupport@teamstudio.com">techsupport@teamstudio.com</a>.</p>
-    <p>To verify your version of Notes is supported by HCL check HCL's <a href="https://support.hcltechsw.com/csm?id=kb_article&sysparm_article=KB0068850&sys_kb_id=d9e7f06e1be51cd0f37655352a4bcb4d">Support Lifecycle</a></p>
+    <p>To verify your version of Notes is supported by HCL check HCL's <a href="https://www.hcl-software.com/resources/product-release/search">Support Lifecycle</a></p>
   </div>
 * Approximately 50 MB of hard disk drive space
 * Sufficient RAM to run HCL Lotus Notes
