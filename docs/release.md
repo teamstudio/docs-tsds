@@ -8,6 +8,10 @@ Edition 35 is a feature release of the Teamstudio Notes tools. The primary new f
 In addition to 64 bit support, we have significantly optimized the performance of the CIAO! UI, especially over slow connections. There are major performance improvements both in launching CIAO and in updating the UI after a checkin/out operation.
  
 ## Fix List
+### 35.0.3
+80 Delta report may omit property differences  
+81 Fix error saving or compiling a form in 64 bit Configurator
+
 ### 35.0.2
 186003603 Analyzer crash on corrupt data  
 185959912 Fix memory overwrite in Open Database dialog  
